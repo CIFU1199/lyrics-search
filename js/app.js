@@ -24,5 +24,5 @@ function buscarCancion(e) {
 
     //consultar la API
     const busqueda =  new API(artista,cancion);
-    console.log(busqueda);
+    busqueda.consultarAPI();
 }
